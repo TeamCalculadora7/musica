@@ -1,0 +1,67 @@
+body, html{
+  background-color: rgb(47, 47, 47);
+  color: aliceblue;
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+  /* height: 30px; */
+  background-color: black;
+  padding: 20px;
+  z-index: 10000000000;
+  margin-bottom: 30px;
+}
+
+.container{
+  /* margin-top: 50px; */
+}
+
+.portada{
+  width: 100%;
+  height: 100vh;
+  background-image: url('images/portada.jpg');
+  background-size: cover;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-portada{
+  width: 70%;
+  background-color: black;
+  color: darkcyan;
+  text-align: center;
+  height: 200px;
+  padding: 20px;
+  opacity: 0.85;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo{
+ font-size: 8vw;
+ opacity: 1;
+}
+
+.boton-ver{
+  opacity: 1;
+}
+
+.card{
+  background-color: black;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.first{
+  margin-top: 70px;
+}
+
+p{
+  color: aliceblue;
+  text-align: justify;
+}
